@@ -111,7 +111,7 @@ body{
     padding: 5px 20px;
     width: 180px;
 }
-
+/*we must use webkit cause such kind of style is not supported*/
 .statistics__number{
     margin-bottom: 5px;
     font-size: 27px;
