@@ -1,15 +1,4 @@
-body{
-    margin: 0;
-    font-family: sans-serif;
-}
-.container{
-    width: 1140px;
-    margin: 0 auto;
-}
 
-.toppercase{
-    text-transform: uppercase;
-}
 .clearboth{
     clear: both;
 }
@@ -22,39 +11,7 @@ body{
     box-shadow:0px 0.1px 16px 0px rgb(0 0 0 / 10);
     z-index: 111    ;
 }
-.main-header-brand {
-    display: inline-block;
-    vertical-align: middle;
-}
-.main-header-brand img{
-    width: 70px;
-}
-.main-navigation {
-    display: inline-block;
-    vertical-align: middle;
-    z-index: 111;
-}
 
-.main-navigation-item{
-    display: inline-block;
-    padding: 10px;
-}
-
-.main-navigation-item a{
-    color: #05364d;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 12px;
-}
-
-.main-navigation-item a:hover{
-    color: coral;
-}
-
-.main-navigation-item.active a{
-    color: coral;
-}
 .main-section {
     padding: 100px 30px;
 }
