@@ -1,16 +1,4 @@
 
-.clearboth{
-    clear: both;
-}
-.main-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    width: 100%;
-    box-shadow:0px 0.1px 16px 0px rgb(0 0 0 / 10);
-    z-index: 111    ;
-}
 
 .main-section {
     padding: 100px 30px;
@@ -92,41 +80,7 @@
     width: 50%;
     float: left;
 }
-.section-subtitle{
-    letter-spacing: 2px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #797979;
-    text-transform: uppercase;
-}
-.section-title{
-    margin-top: 5px;
-    font-size: 42px;
-    font-weight: 700;
-    text-transform: capitalize;
-    color: #05364d;
-}
-.section-description{
-    font-size: 14px;
-    font-weight: 300;
-    color: #797979;
-    line-height: 27px;
-}
-.button{
-    border: none;
-   background: linear-gradient(to right, #1345e6, #ed239f);
-    margin-top: 30px;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 20px 40px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-.button:hover{
-    /* background-position: right center; */
-    background: linear-gradient(to right, #ed239f, #1345e6);
-}
+
 .about-me__button{
     margin-top: 40px;
 }
