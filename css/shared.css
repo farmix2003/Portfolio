@@ -37,7 +37,7 @@ body{
 
 .main-navigation-item{
     display: inline-block;
-    padding: 10px;
+    padding: 0.625rem;/*10/16=0.625*/
 }
 
 .main-navigation-item a{
@@ -45,7 +45,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;/*10/16 = 0.75rem*/
 }
 
 .main-navigation-item a:hover{
@@ -58,31 +58,31 @@ body{
 .section-subtitle{
     letter-spacing: 2px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;/* 10px / 16=0.625rem*/
     color: #797979;
     text-transform: uppercase;
 }
 .section-title{
-    margin-top: 5px;
-    font-size: 42px;
+    margin-top: 0.32rem; /*5 / 16 = 0.32rem*/
+    font-size: 2.62rem; /* 42 / 16 = 2.62rem*/
     font-weight: 700;
     text-transform: capitalize;
     color: #05364d;
 }
 .section-description{
-    font-size: 14px;
+    font-size: 0.88rem;
     font-weight: 300;
     color: #797979;
-    line-height: 27px;
+    line-height: 1.69rem;
 }
 .button{
     border: none;
-   background: linear-gradient(to right, #1345e6, #ed239f);
+    background: linear-gradient(to right, #1345e6, #ed239f);
     margin-top: 30px;
     color: #fff;
     font-weight: 500;
-    font-size: 14px;
-    padding: 20px 40px;
+    font-size: 0.88rem;/* 14px / 16 = 0.88rem*/
+    padding: 1.25rem 2.5rem; /* 20/16=1.25 40/16=2.5rem*/
     cursor: pointer;
     border-radius: 4px;
 }

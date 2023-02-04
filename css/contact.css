@@ -1,16 +1,16 @@
 .contact{
-    padding: 100px 20px;
+    padding: 6.25rem 1.25rem;
 }
 
 input, textarea{
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding: 1.25rem;
     border: 1px solid #f0e9ff;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-size: 13px;
+    border-radius: 0.31rem;
+    padding-left: 0.625rem;
+    font-size: 0.81rem;
     background: transparent;
     color: #495057;
     box-sizing: border-box;
@@ -25,11 +25,11 @@ input:focus{
     box-sizing: border-box;
 }
 .firstname{
-    padding-right: 15px;
+    padding-right: 0.94rem;
 }
 .email{
-    padding-left:  15px;
+    padding-left:  0.94rem;
 }
 .contact-btn{
-    margin-top: 30px;
+    margin-top: 1.87rem;
 }

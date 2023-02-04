@@ -1,7 +1,7 @@
 
 
 .main-section {
-    padding: 100px 30px;
+    padding: 6.25rem 1.87rem/*100/16=6.25, 30/16=1.87*/
 }
 
 .main-section>div{
@@ -13,31 +13,31 @@
 }
 
 .main-section__welcome{
-    font-size: 16px;
+    font-size: 1rem;/*16/16=1*/
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;/*20/16=1.25*/
     color: #797979;
     letter-spacing: 2px;
 }
 .main-section__intro{
     color: #053643;
-    margin-top: 20px;
-    font-size: 60px;
+    margin-top: 1.25rem;/*20/16=1.25rem*/
+    font-size: 3.75rem;/*60/16=3.75*/
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .main-section__position{
     color: #05364E;
-    font-size: 24px;
+    font-size: 1.5rem;/*24/16=1.5*/
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .icons a{
     color: #8fa1aa;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: inline-block;
     cursor: pointer;
-    margin: 30px 16px;
+    margin: 1.87rem 1rem;/*30/16=1.87, 16/16=1*/
 }
 .icons a:hover i{
     color: #0000ff;
@@ -46,35 +46,35 @@
     border: none;
 }
 .statistics{
-    padding-top: 100px;
+    padding-top: 6.25rem;/*100/16=6.25*/
 }
 
 .statistics__items{
     display: inline-block;
     background-color: #f8fafa;
     text-align: center;
-    padding: 5px 20px;
-    width: 180px;
+    padding: 0.32rem 1.25rem;
+    width: 180px; 
 }
 /*we must use webkit cause such kind of style is not supported*/
 .statistics__number{
-    margin-bottom: 5px;
-    font-size: 27px;
-    margin-right: 20px;
+    margin-bottom: 0.32rem;
+    font-size: 1.69rem;
+    margin-right: 1.25rem;
     background: linear-gradient( 90deg, #1345e6 0%, #ed239f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .statistics__title{
-    font-size: 16px;
+    font-size: 1rem;
     color: #797979;
     font-weight: 300;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .about-me{
-    padding: 100px 0;
+    padding: 6.25rem 0;
 }
 .about-me > div{
     width: 50%;
@@ -82,7 +82,7 @@
 }
 
 .about-me__button{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .main-section_img img{
     width: 350px;
@@ -94,13 +94,13 @@
     width: 60px;
 }
 .services{
-    padding: 100px;
+    padding: 6.25rem;
 }
 
 .service__card{
     display: inline-block;
     width: 30%;
-    padding: 60px 30px;
+    padding: 3.75rem 1.87rem;
     border-color: #f8faff;
     margin-right: 3%;
     text-align: center; 
@@ -109,28 +109,28 @@
 
 .service-card__title{
     color: #05364d;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-transform: uppercase;
 }
 .service-card__description{
-    font-size: 14px;
-    line-height: 27px;
+    font-size:0.87rem;
+    line-height: 1.69rem;
     font-weight: 300;
     color: #797979;
 }
 .service-card__link{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 0.81rem;
     font-weight: 500;
     color: #05364d;
 }
 
 .service__card:hover{
     background-color: #06066e;
-    border-radius: 5px;
+    border-radius: 0.31rem;
 }
 .service__card:hover .service-card__title,
 .service__card:hover .service-card__description,
@@ -138,7 +138,7 @@
     color: #fff;
 }
 .testimonials{
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .client-item > div{
     float: left;
@@ -148,28 +148,28 @@
     width: 100%;
 }
 .client-item__name{
-    font-size: 20px;
-    margin-bottom: 4px;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
 } 
 .client-item__position{
-    font-size: 17px;
+    font-size: 1.1rem;
     font-weight: 300;
     color: #5b6d75;
 }
 .client-item__review{
-    font-size: 14px;
-    line-height: 27px;
+    font-size: 0.87rem;
+    line-height: 1.79rem;
     font-weight: 300;
     color: #5b6d75;
 }
 .client-item__info{
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .fa-star{
     color: #ffff00;
 }
 .porfolio{
-    padding: 100px 0px;
+    padding: 6.25rem 0rem;
 }
 .portfolio-item img {
     width: 100%;
@@ -188,11 +188,11 @@
     position: relative;
     display: inline-block;
     width: 50%;
-    padding: 10px 10px;
+    padding: 0.62rem 0.62rem;
     box-sizing: border-box;
 }
 .portfolio-items{
-    margin-top: 50px;
+    margin-top: 3.12rem;
     position: relative;
 }
 .portfolio-item2{
@@ -203,7 +203,7 @@
 .portfolio-item3{
     position: absolute;
     right: 0;
-    top: 252px;
+    top: 15.75rem;
 }
 .portfolio-item__overlay{
     top: 0;
@@ -217,8 +217,8 @@
 }
 .portfolio-item__info{
     position: absolute;
-    bottom: 44px;
-    left: 80px;
+    bottom: 2.75rem;
+    left: 5rem;
     visibility: hidden;
     z-index: 1;
     color: #fff;
@@ -228,14 +228,14 @@
     text-decoration: none   ;
 }
 .portfolio-filters{
-    margin-top: 50px;
+    margin-top: 3.12rem;
     padding-left: 0;
     list-style: none;
 }
 .portfolio-filters li{
     display: inline-block;
-    margin-right: 40px;
-    font-size: 13px;
+    margin-right: 2.5rem;
+    font-size: 0.81rem;
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
@@ -249,14 +249,14 @@
 }
 .portfolio-item:hover .portfolio-item__overlay{
     visibility: visible;
-    top: 20px;
-    left: 20px;
+    top: 1.25rem;
+    left: 1.25rem;
     cursor: pointer;
 }
 .portfolio-item:hover .portfolio-item__info{
     visibility: visible;
-    bottom: 24px;
-    left: 60px;
+    bottom: 1.5rem;
+    left: 3.75rem;
 }
 .main-banner{
     background: url("../imgs/backgroundimg.png") no-repeat top center ;
@@ -267,13 +267,13 @@
 .blog-item__img img{
    width: 100%;;
     height: 310px;
-    border-radius: 3px;
+    border-radius: 0.19rem;
 }
 .blog{
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .blog-items{
-    margin-top: 50px;
+    margin-top: 3.12rem;
 }
 .blog-item{
     margin-right: 3%;
@@ -289,32 +289,32 @@
 }
 .blog-item__info{
     background-color: #f8faff;
-    padding: 30px;
+    padding: 1.87rem;
     color: #797979;
 }
 .blog-item__info span{
-    font-size: 14px;
-    margin-right: 30px;
+    font-size: 0.87rem;
+    margin-right: 1.87rem;
     font-weight: lighter;
 }
 .blog-item__info i{
-    margin-right: 5px;
+    margin-right: 0.31rem;
 }
 .blog-item__title{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.94rem;
     color: #05364d;
     font-weight: 700;
 }
 .blog-item__description{
-    line-height: 27px;
+    line-height: 1.69rem;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 0.94rem;
     font-weight: lighter;
 }
 .blog-item__learn-more{
-    font-size: 13px;
+    font-size: 0.81rem;
     font-weight: 500;
     text-transform: uppercase;
     color: #05364d;
@@ -323,11 +323,11 @@
     color: #ed239f;
 }
 .partners{
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .partner{
     display: inline-block;
-    margin: 0px 54px;
+    margin: 0rem 3.34rem;
 }
 .partner img{
     width: 100px;
