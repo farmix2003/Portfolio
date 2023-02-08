@@ -1,13 +1,11 @@
 .main-section {
-    padding: 6.25rem 1.87rem/*100/16=6.25, 30/16=1.87*/
-}
-
-.main-section>div{
-    width: 50%;
-    float: left;
+    padding: 6.25rem 1.87rem;/*100/16=6.25, 30/16=1.87*/
+    display: flex;
+    justify-content: space-between;
 }
 .main-section_img {
     text-align: right;
+    
 }
 
 .main-section__welcome{
@@ -45,10 +43,10 @@
 }
 .statistics{
     padding-top: 6.25rem;/*100/16=6.25*/
+    display: flex;
 }
 
 .statistics__items{
-    display: inline-block;
     background-color: #f8fafa;
     text-align: center;
     padding: 0.32rem 1.25rem;
@@ -74,10 +72,10 @@
 
 .about-me{
     padding: 6.25rem 0;
+    display: flex;
 }
 .about-me > div{
-    width: 50%;
-    float: left;
+    flex: 1;
 }
 
 .about-me__button{
@@ -95,10 +93,12 @@
 .services{
     padding: 6.25rem;
 }
+.services__cards{
+    display: flex;
+    justify-content: space-between;
+}
 
 .service__card{
-    display: inline-block;
-    width: 30%;
     padding: 3.75rem 1.87rem;
     border-color: #f8faff;
     margin-right: 3%;
@@ -140,9 +140,12 @@
 .testimonials{
     padding-top: 6.25rem;
 }
+.client-item{
+    display: flex;
+    align-items: center;
+}
 .client-item > div{
-    float: left;
-    width: 50%;
+  flex: 1;
 }
 .client-item img{
     width: 100%;
@@ -286,11 +289,11 @@
 }
 .blog-items{
     margin-top: 3.12rem;
+    display: flex;
+    justify-content: space-between;    
 }
 .blog-item{
     margin-right: 3%;
-    display: inline-block;
-    width: 30%;
     box-sizing: border-box;
 }
 .blog-item:hover{
@@ -337,9 +340,10 @@
 }
 .partners{
     padding-top: 6.25rem;
+    display: flex;
+    justify-content: space-between;
 }
 .partner{
-    display: inline-block;
     margin: 0rem 3.34rem;
 }
 .partner img{
@@ -356,6 +360,7 @@
     .statistics{
         padding-top: 1rem;
         text-align: center;
+        justify-content: center;
     }
     .about-me{
         padding: 1.5rem 0;
@@ -369,8 +374,11 @@
     .services{
         padding: 1.5rem 0;
     }
+    .services__cards{
+        flex-wrap: wrap;
+    }
     .service__card{
-        width: 45%;
+        flex-basis: 45%;
         margin-bottom: 20px;
     }
     .clients{
@@ -408,6 +416,7 @@
     }
 
     /*Statistics section*/
+    
     .statistics__items{
         width: 100%;
         margin-bottom: 10px;

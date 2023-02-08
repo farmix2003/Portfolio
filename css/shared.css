@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     font-family: sans-serif;
@@ -25,17 +28,13 @@ a{
     box-shadow:0px 0.1px 16px 0px rgb(0 0 0 / 10);
     z-index: 111    ;
 }
-.main-header-brand {
-    display: inline-block;
-    vertical-align: middle;
+.main-header .container{
+    display: flex;
+    align-items: center;
 }
+
 .main-header-brand img{
     width: 70px;
-}
-.main-navigation {
-    display: inline-block;
-    vertical-align: middle;
-    z-index: 111;
 }
 
 .main-navigation-item{
@@ -122,6 +121,7 @@ a{
 .footer-navigation__item a {
     text-decoration: none;
     color: #fff;
+    transition: all 0.4s ease 0s;
 }
 .footer-social__item{
     display: inline-block;
@@ -135,9 +135,11 @@ a{
     font-size: 16px;
     color: #05364d;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 .footer-social__item a i{
     color: #021017;
+    transition: all 0.3s ease 0s;
 }
 .footer-social__item:hover{
     background: linear-gradient(90deg, #1345e6, #ed239f);
@@ -153,6 +155,7 @@ a{
     .container{
         width: 90%;
     }
+    
     .main-navigation{
         display: none;
     }
@@ -166,4 +169,11 @@ a{
    .container{
     width: 96%;
    }
+   .footer-brand {
+     text-align: center;
+   
+  }
+  .footer-social__item a i{
+    margin: 0 auto;
+  }
 }
